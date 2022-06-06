@@ -31,11 +31,11 @@ class CourseAdmin(admin.ModelAdmin):
     list_display = ['code', 'room_type']
 
 
-@admin.register(User)
-class CourseAdmin(admin.ModelAdmin):
-    list_display = ['is_warden']
+# @admin.register(User)
+# class CourseAdmin(admin.ModelAdmin):
+#     list_display = ['is_warden']
 
 
-@admin.register(Warden)
-class CourseAdmin(admin.ModelAdmin):
-    list_display = ['name']
+# @admin.register(Warden)
+# class CourseAdmin(admin.ModelAdmin):
+#     list_display = ['name']
